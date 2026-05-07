@@ -53,9 +53,9 @@ df = pd.read_csv("dataset/train.csv")
 # FEATURES / LABEL
 # =========================================================
 
-X = df.drop("label", axis=1)
+X = df.drop("target", axis=1)
 
-y = df["label"]
+y = df["target"]
 
 # =========================================================
 # TRAIN TEST SPLIT
